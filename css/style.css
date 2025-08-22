@@ -54,9 +54,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*body {
-??
-}*/
+body {
+    position: absolute;
+    z-index: -2;
+}
 
 section {
 	margin-block: 6em;
