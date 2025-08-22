@@ -31,6 +31,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -53,9 +54,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body {
+/*body {
+??
+}*/
 
-}
 section {
 	margin-block: 6em;
 }
@@ -172,7 +174,7 @@ header {
 	flex:1;
 }
 #about-us li {
-	background: url("./images/tricolor-icon.png") no-repeat left top;
+	background: url("/assets/images/tricolor-icon.png") no-repeat left top;
 	font-size: 16px;
 	line-height: 26px;
 	padding-left:2em;
@@ -258,7 +260,7 @@ header {
 
 #contact h3 {
 	margin-top: 0;
-	background: url("./images/tricolor-icon.png") no-repeat left top;
+	background: url("/assets/images/tricolor-icon.png") no-repeat left top;
 	padding-left:1.5em;
 	width: 200px;
 }
