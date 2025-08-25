@@ -124,6 +124,11 @@ header {
 	object-fit: cover;
 	object-position: center;
 }
+
+.banner-img.fade-out{
+	opacity: 0;
+}
+
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
 #banner .arrow {
